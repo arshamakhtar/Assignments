@@ -29,8 +29,7 @@ public:
     //Basic constructor
     Trie() {
         root = new TrieNode();
-    }
-    // Insert a word into the trie
+    }    // Insert a word into the trie
     void insert(const string &word) {
         TrieNode* node = root;
         for(char c : word) {
