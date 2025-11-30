@@ -20,3 +20,5 @@ int main() {
     cout <<"square of the number will be"<< square(n) << endl;
     return 0;
 }
+
+//assignment
